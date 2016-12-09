@@ -266,7 +266,7 @@ void nio_drawing_enabled(nio_console* c, const BOOL enable_drawing);
 	@param offset_y y position
 	@param background_color Background color. Use predefined colors (NIO_COLOR_*)
 	@param foreground_color Text color. Use predefined colors (NIO_COLOR_*)
-    @param drawing_enabled See nio_enable_drawing()
+	@param drawing_enabled See nio_drawing_enabled()
 */
 void nio_init(nio_console* c, const int size_x, const int size_y, const int offset_x, const int offset_y, const unsigned char background_color, const unsigned char foreground_color, const BOOL drawing_enabled);
 
